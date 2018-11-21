@@ -1,12 +1,12 @@
-# webpack2-semantic-ui-theming
-A small project to showcase semantic UI theming using Webpack 2
+# webpack4-semantic-ui-theming
+A small project to showcase semantic UI theming using Webpack 4
 
 
 ## Instructions
 
 ```
 # Fistly clone the project
-git clone https://github.com/3nvi/webpack2-semantic-ui-theming
+git clone https://github.com/Codenaut/webpack4-semantic-ui-theming
 
 # Change directory
 cd webpack2-semantic-ui-theming
