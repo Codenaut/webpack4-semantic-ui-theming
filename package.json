@@ -1,23 +1,25 @@
 {
-  "name": "Webpack2-semantic-ui-theming",
+  "name": "Webpack4-semantic-ui-theming",
   "version": "1.0.0",
-  "description": "A repo to showcase Semantic UI theming using webpack",
+  "description": "A repo to showcase Semantic UI theming using webpack 4. Based on https://github.com/3nvi/webpack2-semantic-ui-theming",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
-  "author": "3nvi",
+  "author": "codenaut",
   "license": "ISC",
   "dependencies": {
-    "semantic-ui-less": "^2.2.10"
+    "semantic-ui-less": "2.4.1"
   },
   "devDependencies": {
-    "webpack": "^2.2.0",
-    "css-loader": "^0.28.4",
-    "extract-text-webpack-plugin": "^2.1.2",
-    "file-loader": "^0.11.2",
-    "less": "^2.7.2",
-    "less-loader": "^4.0.4",
-    "url-loader": "^0.5.9"
+    "css-loader": "1.0.1",
+    "file-loader": "2.0.0",
+    "less": "3.8.1",
+    "less-loader": "4.1.0",
+    "mini-css-extract-plugin": "^0.4.4",
+    "url-loader": "1.1.2",
+    "webpack": "4.26.0",
+    "webpack-cli": "3.1.2"
   }
 }
